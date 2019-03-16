@@ -7,11 +7,37 @@
 
 h1 {
     font-family: 'VT323', 'monospace';
-    text-align: center;
+    text-align: left, right;
     color: rgb(122, 247, 49);
+    text-shadow: 0 0 5px #C8C8C8;
 }
 
+h3 {
+    font: 1.3rem Inconsolata, monospace;
+    text-align: left, right;
+    color: white;
+    text-shadow: 0 0 5px #C8C8C8;
+}
+
+::selection {
+  background: #0080FF;
+  text-shadow: none;
+}
+
+/*may want to change these individually later*/
 #index-body {
+    background-color: black;
+}
+
+#game-body {
+    background-color: black;
+}
+
+#contact-body {
+    background-color: black;
+}
+
+#calendar-body {
     background-color: black;
 }
 
