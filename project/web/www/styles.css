@@ -1,22 +1,33 @@
-.jumbotron {
-    background-image: url("thunder-sky.jpg"); 
-    background-size: cover;
-    font-family: 'Open Sans', sans-serif;
-    font
-}
-
 h1 {
     font-family: 'VT323', 'monospace';
     text-align: left, right;
     color: rgb(122, 247, 49);
     text-shadow: 0 0 5px #C8C8C8;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-h3 {
-    font: 1.3rem Inconsolata, monospace;
+.command {
+
+    font-size: 2em; 
+    font-family: 'VT323', 'monospace';
     text-align: left, right;
-    color: white;
+    color: rgb(122, 247, 49);
     text-shadow: 0 0 5px #C8C8C8;
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation:
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+
+    animation-fill-mode: both;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    
 }
 
 ::selection {
@@ -24,7 +35,195 @@ h3 {
   text-shadow: none;
 }
 
+#a {
+
+   z-index: 4050;
+    /*width: 7.3em;*/
+    font: 1.6rem Inconsolata, monospace;
+    text-align: left, right;
+    color: white;
+    text-shadow: 0 0 5px #C8C8C8;
+
+    white-space: pre;
+    overflow: hidden;
+    
+    animation:
+    typing 1s steps(40, end),
+    blink-caret .75s step-end infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    animation-fill-mode: both;
+    -webkit-animation-delay: 6.6s;
+    animation-delay: 6.6s;
+
+}
+
+#b {
+    z-index: 4050;
+    /*width: 7.3em;*/
+    font: 1.6rem Inconsolata, monospace;
+    text-align: left, right;
+    color: white;
+    text-shadow: 0 0 5px #C8C8C8;
+
+    white-space: pre;
+    overflow: hidden;
+    
+    animation:
+    typing 1s steps(40, end),
+    blink-caret .75s step-end infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    animation-fill-mode: both;
+    -webkit-animation-delay: 7.6s;
+    animation-delay: 7.6s;
+
+}
+
+
+
+#about {
+    background: transparent;
+    animation: blur 5s linear infinite;
+}
+
+#computer {
+  background-color: rgb(172, 173, 175) ;
+  padding: 75px;
+  border-radius: 20px;
+}
+
+#screen {
+    background-color: black;
+    background-image: radial-gradient(
+        rgba(0, 150, 0, 0.75), black 120%
+    );
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.glow {
+    animation: glow 2s linear infinite;
+}
+
+.skew {
+    animation: skew 5s linear infinite;
+}
+
+.lines {
+  // ... positioning
+  z-index: 4100;
+
+  background: repeating-linear-gradient (90deg,
+    transparent, transparent 2px, black 3px, black 3px);
+  opacity: 0.6;
+}
+ 
+.lines:before {
+  content : '';
+  position : absolute;
+  top : 0px;
+  width : 100%;
+  height : 5px;
+  background : #fff;
+  background: linear-gradient(to bottom, rgba(255,0,0,0) 0%,rgba(255,250,250,1) 50%,rgba(255,255,255,0.98) 51%,rgba(255,0,0,0) 100%); /* W3C */
+  opacity : 0.9;
+  animation: vline 1.25s linear infinite;
+}
+ 
+.lines:after {
+  // ... positioning
+  box-shadow: 0 2px 6px rgba(25,25,25,0.2),
+              inset 0 1px rgba(50,50,50,0.1),
+              inset 0 3px rgba(50,50,50,0.05),
+              inset 0 3px 8px rgba(64,64,64,0.05),
+              inset 0 -5px 10px rgba(25,25,25,0.1);
+}
+ 
+.pulse {
+    z-index: 4010;
+    background: linear-gradient(#444 50%, #000 50%);
+    background-size: 100% 4px;
+    background-repeat: repeat-y;
+    opacity: 0.18;
+    box-shadow : inset 0px 0px 1px 1px rgba(0, 0, 0, .8);
+
+    animation: pulse 5s linear infinite;
+}
+
+#inner-shadow {
+    background-color: rgb(112, 113, 114);
+    padding: 10px;
+    border-radius: 20px; 
+}
+
+
+#shadow {
+    background-color: rgb(112, 113, 114) ;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/*animations*/
+
+@keyframes typing {
+  from { width: 0 }
+
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+
+  50% { border-color: orange; }
+}
+
+@keyframes vline {
+  0%   { top: 0px;}
+  100% { top: 100%;}
+}
+
+@keyframes scanline {
+  0% { top: 0; }
+
+  100% { top: 100%; }
+}
+
+@keyframes skew {
+  0% { transform: skewX(0.5deg); }
+
+  8% { transform: skewX(1deg) scale(1.0001); }
+
+  15% { transform: skewX(0.6deg) skewY(-0.05deg); }
+
+  30% { transform: skewX(0.6deg); }
+
+  100% { transform: skewX(0.1deg); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+
+  50% { transform: scale(1.005); }
+
+  100% { transform: scale(1); }
+}
+
+@keyframes blur {
+  50% {
+    color: darken($output-color, 10%);
+    text-shadow: 2px 0 2px lighten($output-text-shadow, 50%);
+  }
+}
+
+@keyframes glow {
+  50% { transform: scale(1.008); }
+}
+
 /*may want to change these individually later*/
+
 #index-body {
     background-color: black;
 }
@@ -41,7 +240,11 @@ h3 {
     background-color: black;
 }
 
-
+footer {
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
 
 .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
 textarea.emscripten { font-family: monospace; width: 80%; }
