@@ -7,6 +7,10 @@
 
 namespace rrts
 {
+    namespace User
+    {
+        class Session;
+    }
     namespace Graphics
     {
 #ifdef EMSCRIPTEN
@@ -77,6 +81,8 @@ namespace rrts
 #endif
 	    GLFWwindow *window;
 	    std::function<void()> frameCallback;
+
+	    friend rrts::User::Session;
 	};
 
 #ifdef EMSCRIPTEN

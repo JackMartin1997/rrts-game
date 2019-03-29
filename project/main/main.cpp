@@ -1,12 +1,13 @@
 #include <iostream>
+#include <GL/glew.h>
 #include <Window.h>
 #include <Shader.h>
 #include <Vertex.h>
 #include <vec3.hpp>
-#include <GL/glew.h>
 #include <VertexBuffer.h>
 #include <IndexBuffer.h>
 #include <VertexBufferArray.h>
+#include <Session.h>
 
 #ifdef EMSCRIPTEN
 #include <emscripten.h>
@@ -28,7 +29,7 @@ int main(int argc, char *argv[])
 	rrts::Graphics::Window window(1280, 720);
 
 	rrts::Graphics::Shader shader;
-	shader.loadFromFile("shaders/vertex.glsl", "shaders/fragment.glsl");
+	shader.loadFromFile("shaders/es.vs", "shaders/es.fs");
 
 	rrts::Graphics::VertexBufferArray vertexBufferArray;
 

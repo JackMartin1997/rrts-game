@@ -2,6 +2,8 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include <Session.h>
+
 #ifdef EMSCRIPTEN
 #include <emscripten.h>
 #endif
@@ -9,6 +11,7 @@
 rrts::Graphics::Window::Window(int width, int height)
 {
 	createWindow(width, height);
+	rrts::User::Session::getInstance()->setWindow(*this);
 }
 
 rrts::Graphics::Window::Window(int width, int height, std::function<void()> callback)
@@ -97,7 +100,8 @@ void rrts::Graphics::Window::setFrameCallBack(std::function<void()> callback)
 
 void rrts::Graphics::Window::clear(float r, float g, float b, float a)
 {
-	glViewport(0, 0, 1280, 720);
+	glViewport(0, 0, rrts::User::Session::getInstance()->getWindowSize().Width,
+		rrts::User::Session::getInstance()->getWindowSize().Height);
 	glClearColor(r, g, b, 1.f);
 	glClear(GL_COLOR_BUFFER_BIT);
 }
