@@ -81,17 +81,23 @@ void rrts::Graphics::Window::createWindow(int width, int height)
 		std::cout << "GLFW failed to initialize \n";
 	}
 
+#ifndef EMSCRIPTEN
+#else
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 	glfwWindowHint(GLFW_CLIENT_API, GLFW_OPENGL_ES_API);
+#endif
+
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
 	window = glfwCreateWindow(width, height, "Window", nullptr, nullptr);
 	if (!window) {
-		// Window or OpenGL context creation failed
+		std::cout << "glfwCreateWindow failed " << std::endl;
+		exit(1);
 	}
 	glfwMakeContextCurrent(window);
 	glewExperimental = GL_TRUE;
+
 	GLenum err=glewInit();
 	if(err!=GLEW_OK) {
 		std::cout << "glewInit failed: " << glewGetErrorString(err) << std::endl;

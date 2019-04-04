@@ -209,36 +209,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e564437a-1b6b-40bc-80be-1e0a0fe96d99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/stb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/backend/include/Square.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/backend/include/TargetRenderer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/backend/include/Transformable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/backend/source/Square.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/backend/source/TargetRenderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/backend/source/Transformable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/game-main/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doxyfile" beforeDir="false" afterPath="$PROJECT_DIR$/Doxyfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/include/RenderState.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/include/RenderState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/include/RenderTarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/include/RenderTarget.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/include/Session.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/include/Session.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/include/Shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/include/Shader.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/include/Texture.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/include/Texture.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/include/VertexBufferArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/include/VertexBufferArray.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/include/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/include/Window.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/source/RenderState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/source/RenderState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/source/RenderTarget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/source/RenderTarget.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/source/Session.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/source/Session.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/source/Shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/source/Shader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/source/Texture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/source/Texture.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/source/VertexBufferArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/source/VertexBufferArray.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/backend/source/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/backend/source/Window.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/main/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/shaders/es.fs" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/shaders/es.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/shaders/es.vs" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/shaders/es.vs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/IndexBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/IndexBuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/RenderState.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/RenderState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/RenderTarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/RenderTarget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/Session.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/Session.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/Shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/Shader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/Square.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/Square.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/TargetRenderer.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/TargetRenderer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/Texture.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/Texture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/Transformable.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/Transformable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/Vertex.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/Vertex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/VertexBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/VertexBuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/VertexBufferArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/VertexBufferArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/include/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/include/Window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/main_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/main_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/IndexBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/IndexBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/RenderState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/RenderState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/RenderTarget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/RenderTarget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/Session.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/Session.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/Shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/Shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/Square.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/Square.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/TargetRenderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/TargetRenderer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/Texture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/Texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/Transformable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/Transformable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/Vertex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/Vertex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/VertexBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/VertexBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/VertexBufferArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/VertexBufferArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backend/source/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-framework/source/Window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-main/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/main/main_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project/game-main/main_test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/lib/googletest/CMakeFiles/" />
@@ -270,7 +274,7 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Emscripten Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FavoritesManager">
     <favorites_list name="Git">
       <favorite_root url="file://$PROJECT_DIR$/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
@@ -278,14 +282,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/main/main.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/game-main/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="375">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/game-framework/source/Window.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -310,9 +338,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/main/main_test.cpp" />
-        <option value="$PROJECT_DIR$/LICENCE" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/project/web/www/emscripten_loader.js" />
         <option value="$PROJECT_DIR$/project/web/www/styles.css" />
         <option value="$PROJECT_DIR$/build/debug/web/rrts_main.data" />
@@ -340,11 +365,9 @@
         <option value="$PROJECT_DIR$/project/backend/include/TargetDrawer.h" />
         <option value="$PROJECT_DIR$/project/backend/source/TargetDrawer.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/project/resources/shaders/es.fs" />
         <option value="$PROJECT_DIR$/project/backend/include/Session.h" />
         <option value="$PROJECT_DIR$/project/backend/source/Session.cpp" />
         <option value="$PROJECT_DIR$/project/backend/include/Window.h" />
-        <option value="$PROJECT_DIR$/project/backend/source/Window.cpp" />
         <option value="$PROJECT_DIR$/project/backend/include/Square.h" />
         <option value="$PROJECT_DIR$/project/backend/include/Shader.h" />
         <option value="$PROJECT_DIR$/project/backend/source/Shader.cpp" />
@@ -356,11 +379,16 @@
         <option value="$PROJECT_DIR$/project/main/main.cpp" />
         <option value="$PROJECT_DIR$/project/backend/source/RenderTarget.cpp" />
         <option value="$PROJECT_DIR$/project/backend/source/RenderState.cpp" />
-        <option value="$PROJECT_DIR$/project/resources/shaders/es.vs" />
         <option value="$PROJECT_DIR$/project/backend/source/TargetRenderer.cpp" />
         <option value="$PROJECT_DIR$/project/backend/include/RenderState.h" />
         <option value="$PROJECT_DIR$/Doxyfile" />
         <option value="$PROJECT_DIR$/project/backend/include/Transformable.h" />
+        <option value="$PROJECT_DIR$/project/resources/shaders/es.fs" />
+        <option value="$PROJECT_DIR$/project/resources/shaders/es.vs" />
+        <option value="$PROJECT_DIR$/project/backend/source/Window.cpp" />
+        <option value="$PROJECT_DIR$/project/game-framework/README.md" />
+        <option value="$PROJECT_DIR$/project/game-main/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -387,44 +415,7 @@
             <path>
               <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
               <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
@@ -436,8 +427,7 @@
               <item name="rrts" type="b2602c69:ProjectViewProjectNode" />
               <item name="rrts-game" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shaders" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -521,19 +511,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/game-main" />
+      <recent name="$PROJECT_DIR$/project/resources" />
+      <recent name="$PROJECT_DIR$/build/release/native" />
+      <recent name="$PROJECT_DIR$/build/debug/native/shaders" />
+      <recent name="$PROJECT_DIR$/build/debug/native" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project/backend/source" />
       <recent name="$PROJECT_DIR$/project/backend/include" />
       <recent name="$PROJECT_DIR$/project/backend" />
       <recent name="$PROJECT_DIR$/project" />
       <recent name="$PROJECT_DIR$/project/main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/build/release/native" />
-      <recent name="$PROJECT_DIR$/project/resources" />
-      <recent name="$PROJECT_DIR$/build/debug/native/shaders" />
-      <recent name="$PROJECT_DIR$/build/debug/native" />
-      <recent name="$PROJECT_DIR$/project/resources/shaders" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -620,7 +610,7 @@
       <workItem from="1553621776917" duration="1128000" />
       <workItem from="1553705882460" duration="12604000" />
       <workItem from="1554366497372" duration="25706000" />
-      <workItem from="1554409751211" duration="651000" />
+      <workItem from="1554409751211" duration="5598000" />
     </task>
     <task id="LOCAL-00001" summary="Added README and added web shell for future improvement">
       <created>1552248314956</created>
@@ -665,7 +655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148343000" />
+    <option name="totallyTimeSpent" value="153290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,10 +667,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1922" height="1060" extended-state="7" />
+    <frame x="-1" y="-1" width="1922" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22341569" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39602926" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.36090225" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.30075186" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291536" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.22257054" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2631579" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3291536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -691,35 +705,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.36120042" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.36090225" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.30075186" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291536" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.22257054" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.2631579" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3291536" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20674406" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22361547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39602926" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.3615465" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.30075186" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291536" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.22257054" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2633229" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.2631579" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -731,6 +721,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.fs" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/tools/emsdk" />
@@ -739,20 +732,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added README and added web shell for future improvement" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/web/www/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/web/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/debug/web/emscripten_loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -768,7 +747,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/debug/web/home.PNG" />
-    <entry file="file://$PROJECT_DIR$/project/backend/source/Vertex.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/Vertex.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -808,22 +787,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/README.md" />
-    <entry file="file://$PROJECT_DIR$/project/backend/include/IndexBuffer.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/IndexBuffer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/VertexBuffer.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/VertexBuffer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/VertexBufferArray.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/VertexBufferArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
@@ -833,14 +811,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/VertexBufferArray.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/VertexBufferArray.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/IndexBuffer.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/IndexBuffer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
@@ -863,7 +841,7 @@
     <entry file="file://$PROJECT_DIR$/build/debug/native/shaders/es.vs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/Session.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/Session.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="45" column="47" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="47" />
@@ -873,7 +851,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/Session.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/Session.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
@@ -883,7 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/Window.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/Window.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
@@ -893,31 +871,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/Window.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/Square.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/Square.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="65" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/Vertex.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/Vertex.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/Shader.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/Shader.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
@@ -927,7 +895,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/Shader.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/Shader.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
@@ -937,7 +905,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/TargetRenderer.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/TargetRenderer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -961,7 +929,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/Texture.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/Texture.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
@@ -971,14 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/resources/shaders/es.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/Texture.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/Texture.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
@@ -988,7 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/VertexBuffer.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/VertexBuffer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
@@ -998,7 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/Transformable.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/Transformable.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -1012,7 +973,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/TargetRenderer.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/TargetRenderer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -1022,21 +983,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/resources/shaders/es.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/RenderState.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/RenderState.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/Square.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/Square.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
@@ -1046,7 +1000,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/RenderTarget.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/RenderTarget.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
@@ -1056,14 +1010,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/RenderTarget.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/RenderTarget.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/source/RenderState.cpp">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/RenderState.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
@@ -1073,7 +1027,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/backend/include/Transformable.h">
+    <entry file="file://$PROJECT_DIR$/project/game-framework/include/Transformable.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -1083,13 +1037,67 @@
     <entry file="file://$PROJECT_DIR$/project/resources/test.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/main/main.cpp">
+    <entry file="file://$PROJECT_DIR$/project/resources/shaders/es.vs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/game-main/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/resources/shaders/es.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/game-main/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/game-framework/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/game-framework/source/Window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
