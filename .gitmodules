@@ -10,3 +10,6 @@
 [submodule "lib/glew"]
 	path = lib/glew
 	url = https://github.com/nigels-com/glew.git
+[submodule "lib/stb"]
+	path = lib/stb
+	url = https://github.com/nothings/stb.git

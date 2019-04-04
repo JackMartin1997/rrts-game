@@ -126,3 +126,8 @@ void rrts::Graphics::Shader::addUniformVec3(glm::vec3 vec3, std::string name)
 	if (location > -1)
 		glUniform3f(location, vec3.x, vec3.y, vec3.z);
 }
+
+unsigned int rrts::Graphics::Shader::getId()
+{
+	return programID;
+}

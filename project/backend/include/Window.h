@@ -4,6 +4,7 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <functional>
+#include <TargetRenderer.h>
 
 namespace rrts
 {
@@ -16,8 +17,9 @@ namespace rrts
 #ifdef EMSCRIPTEN
 	static void frame(void* inst);
 #endif
+	class RenderTarget;
 
-	class Window
+	class Window : public TargetRenderer
 	{
 	public:
 	    /**
@@ -75,6 +77,9 @@ namespace rrts
 	    void setFrameCallBack(std::function<void()> callback);
 
 	    void runFrame();
+
+	    double previousTime = 0;
+	    unsigned int frameCount = 0;
 
 #ifdef EMSCRIPTEN
 	    friend void frame(void* inst);

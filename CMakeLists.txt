@@ -15,6 +15,9 @@ file(GLOB_RECURSE BACK_SRCS project/backend/source/*.cpp)
 file(GLOB_RECURSE BACK_HDRS project/backend/include/*.h)
 file(GLOB_RECURSE BACK_TST project/backend/test/*.hpp)
 
+set(STB_SRC lib/stb/stb_image.h)
+
+
 if(EMSCRIPTEN)
     # Disabled - just output js file
 #    set(CMAKE_EXECUTABLE_SUFFIX ".html")
@@ -27,8 +30,9 @@ endif()
 include_directories(project/main/include)
 include_directories(project/backend/include)
 include_directories(lib/glm/glm)
+include_directories(lib/stb)
 
-add_executable(${PROJECT_NAME}_main project/main/main.cpp ${SRCS} ${HDRS} ${BACK_SRCS} ${BACK_HDRS})
+add_executable(${PROJECT_NAME}_main project/main/main.cpp ${STB_SRC} ${SRCS} ${HDRS} ${BACK_SRCS} ${BACK_HDRS})
 
 if(NOT EMSCRIPTEN)
     add_subdirectory(lib/googletest)
@@ -46,7 +50,7 @@ if(NOT EMSCRIPTEN)
     add_executable(backend_test ${BACK_TST} project/backend/main_test.cpp ${BACK_SRCS} ${BACK_HDRS})
     target_link_libraries(backend_test gtest gtest_main)
 
-    add_executable(${PROJECT_NAME}_test ${TST} project/main/main_test.cpp ${SRCS} ${HDRS})
+    add_executable(${PROJECT_NAME}_test ${TST} ${STB_SRC} project/main/main_test.cpp ${SRCS} ${HDRS})
     target_link_libraries(${PROJECT_NAME}_test gtest gtest_main)
 endif()
 

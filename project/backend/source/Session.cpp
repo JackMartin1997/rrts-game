@@ -74,7 +74,18 @@ rrts::User::Session::Session()
 		<< "Operating System: " << OS_VERSION << std::endl
 		<< "CPU: " << getCPUID() << std::endl
 		<< "Memory: " << getMemorySize() << "MB" << std::endl
-		<< "Max Texture Units: " << textureUnits << std::endl;
+		<< "Max Texture Units: " << textureUnits << std::endl
+		<< "Opengl Driver: " << glGetString(GL_VERSION) << std::endl;
+}
+
+unsigned int rrts::User::Session::getFPS()
+{
+	return fps;
+}
+
+void rrts::User::Session::setFPS(unsigned int framecount)
+{
+	fps = framecount;
 }
 
 rrts::User::Session::~Session()

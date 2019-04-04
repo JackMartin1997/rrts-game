@@ -6,5 +6,6 @@
     <mapping directory="$PROJECT_DIR$/lib/glfw" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/glm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/stb" vcs="Git" />
   </component>
 </project>

@@ -42,10 +42,14 @@ namespace rrts
 	    static Session* getInstance();
 
 	    ~Session();
+	    unsigned int getFPS();
+	    void setFPS(unsigned int framecount);
 	private:
 	    Session();
 
 	    rrts::Graphics::Window *window;
+
+	    unsigned int fps = 0;
 
 	    // Default to 720p
 	    unsigned int windowWidth = 1280;

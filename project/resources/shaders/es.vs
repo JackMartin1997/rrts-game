@@ -8,6 +8,10 @@ out vec3 fr_position;
 out vec3 fr_colour;
 out vec2 fr_texcoord;
 
+uniform mat4 transform;
+uniform mat4 view;
+uniform mat4 projection;
+
 void main()
 {
 	fr_position = position;

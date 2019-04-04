@@ -6,6 +6,8 @@ namespace rrts
 {
     namespace Graphics
     {
+        class TargetRenderer;
+
         enum AttribDataType
         {
                 Float
@@ -17,7 +19,7 @@ namespace rrts
 	    VertexBufferArray();
 	    ~VertexBufferArray();
 
-	    void bind();
+	    const void bind();
 	    static void unbind();
 
 	    /**
@@ -34,11 +36,13 @@ namespace rrts
 	     */
 	    void AddAttribute(AttribDataType type, unsigned int width, void* offset, unsigned int vectorSize);
 
+	    void setIndexCount(unsigned int count);
 	private:
 	    unsigned int bufferID;
 	    unsigned int currentAttributeIndex = 0;
 
-
+	    unsigned int count = 0;
+	    friend TargetRenderer;
 	};
     }
 }

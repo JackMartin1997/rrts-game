@@ -33,6 +33,8 @@ namespace rrts
 	     * @param name
 	     */
 	    void addUniformVec3(glm::vec3 vec3, std::string name);
+
+	    unsigned int getId();
 	private:
 	    unsigned int vertexid;
 	    unsigned int fragmentid;

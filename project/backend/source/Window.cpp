@@ -3,18 +3,19 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 #include <Session.h>
+#include <RenderTarget.h>
 
 #ifdef EMSCRIPTEN
 #include <emscripten.h>
 #endif
 
-rrts::Graphics::Window::Window(int width, int height)
+rrts::Graphics::Window::Window(int width, int height) : TargetRenderer()
 {
 	createWindow(width, height);
 	rrts::User::Session::getInstance()->setWindow(*this);
 }
 
-rrts::Graphics::Window::Window(int width, int height, std::function<void()> callback)
+rrts::Graphics::Window::Window(int width, int height, std::function<void()> callback) : TargetRenderer()
 {
 	createWindow(width, height);
 	setFrameCallBack(std::move(callback));
@@ -30,6 +31,18 @@ void rrts::Graphics::Window::swapBuffer()
 {
 	glfwSwapBuffers(window);
 	glFlush();
+
+	double currentTime = glfwGetTime();
+	frameCount++;
+	// If a second has passed.
+	if ( currentTime - previousTime >= 1.0 )
+	{
+		rrts::User::Session::getInstance()->setFPS(frameCount);
+		glfwSetWindowTitle(window, std::string("Window ( FPS:" + std::to_string(frameCount) + " )").c_str());
+
+		frameCount = 0;
+		previousTime = currentTime;
+	}
 }
 
 void rrts::Graphics::Window::pollEvents()
@@ -62,6 +75,8 @@ void GLAPIENTRY MessageCallback( GLenum source,
 
 void rrts::Graphics::Window::createWindow(int width, int height)
 {
+	previousTime = glfwGetTime();
+
 	if (!glfwInit()) {
 		std::cout << "GLFW failed to initialize \n";
 	}

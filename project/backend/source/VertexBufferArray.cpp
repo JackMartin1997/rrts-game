@@ -11,7 +11,7 @@ rrts::Graphics::VertexBufferArray::~VertexBufferArray()
 	glDeleteVertexArrays(1, &bufferID);
 }
 
-void rrts::Graphics::VertexBufferArray::bind()
+const void rrts::Graphics::VertexBufferArray::bind()
 {
 	glBindVertexArray(bufferID);
 }
@@ -42,4 +42,9 @@ rrts::Graphics::VertexBufferArray::AddAttribute(rrts::Graphics::AttribDataType t
 		}
 			break;
 	}
+}
+
+void rrts::Graphics::VertexBufferArray::setIndexCount(unsigned int count)
+{
+	count = count;
 }

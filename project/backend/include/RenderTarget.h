@@ -1,26 +1,34 @@
-#ifndef RRTS_RENDERTARGET_H
-#define RRTS_RENDERTARGET_H
+#ifndef RRTS_DRAWTARGET_H
+#define RRTS_DRAWTARGET_H
 
+#include <RenderState.h>
+#include <VertexBufferArray.h>
+#include <IndexBuffer.h>
 #include <glm.hpp>
+#include <Transformable.h>
 
 namespace rrts
 {
     namespace Graphics
     {
-	class RenderTarget
-	{
-	public:
-	    void draw(RenderTarget &target);
+        class TargetRenderer;
 
-	protected:
-	    //void drawCall(RenderTarget &)
+        class RenderTarget : public Transformable
+        {
+        public:
+            void rotate(float by) override;
+            void scale(float by) override;
+            void setSize(int width, int height) override;
+            void setPosition(int x, int y) override;
+        protected:
+            VertexBufferArray bufferArray; // this could be a issue in future
+            IndexBuffer indexBuffer;
+            RenderState state;
 
-
-	    glm::vec3 position;
-	    glm::vec3 transform;
-	};
+            friend TargetRenderer;
+        };
     }
 }
 
-#endif //RRTS_RENDERTARGET_H
 
+#endif //RRTS_DRAWTARGET_H

@@ -2,6 +2,7 @@
 #define RRTS_TEXTURE_H
 
 #include <iostream>
+#include <vec2.hpp>
 
 namespace rrts
 {
@@ -16,7 +17,10 @@ namespace rrts
 
             void bind() const;
             static void unbind();
+
+            glm::vec2 getSize();
         private:
+            unsigned int id;
             unsigned int width;
             unsigned int height;
         };
